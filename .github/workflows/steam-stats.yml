@@ -1,0 +1,43 @@
+name: Update Steam Stats
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-steam:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Steam data
+        env:
+          STEAM_KEY: ${{ secrets.STEAM_API_KEY }}
+        run: |
+          STEAM_ID="76561199132635436"
+          GAMES=$(curl -sf "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${STEAM_KEY}&steamid=${STEAM_ID}&include_appinfo=true&include_played_free_games=true&format=json")
+          LEVEL=$(curl -sf "https://api.steampowered.com/IPlayerService/GetSteamLevel/v1/?key=${STEAM_KEY}&steamid=${STEAM_ID}&format=json")
+          HOURS=$(echo "$GAMES" | jq '[.response.games[]?.playtime_forever // 0] | add // 0 | . / 60 | floor')
+          COUNT=$(echo "$GAMES" | jq '.response.game_count // 0')
+          LV=$(echo "$LEVEL" | jq '.response.player_level // 0')
+          echo "${HOURS}" > /tmp/hours.txt
+          echo "${COUNT}" > /tmp/games.txt
+          echo "${LV}" > /tmp/level.txt
+
+      - name: Update README with Steam data
+        run: |
+          HOURS=$(cat /tmp/hours.txt)
+          GAMES=$(cat /tmp/games.txt)
+          LEVEL=$(cat /tmp/level.txt)
+          sed -i "s/Cargando\.\.\./Nivel: ${LEVEL} | Horas: ${HOURS}h | Juegos: ${GAMES}/g" README.md || true
+          sed -i "s/| 🏅 \*\*Nivel\*\* | Cargando\.\.\. |/| 🏅 **Nivel** | ${LEVEL} |/" README.md || true
+          sed -i "s/| ⏱️ \*\*Horas\*\* | Cargando\.\.\. |/| ⏱️ **Horas** | ${HOURS}h |/" README.md || true
+          sed -i "s/| 🎲 \*\*Juegos\*\* | Cargando\.\.\. |/| 🎲 **Juegos** | ${GAMES} |/" README.md || true
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 Update Steam stats"
+          file_pattern: "README.md"
