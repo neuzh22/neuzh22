@@ -42,9 +42,11 @@ neuzh22@github
 
 ### 🎧 Spotify — Música en tiempo real
 
-[<img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=x66jcxe031a67t6po1av5fi9x&number_of_artists=5&number_of_tracks=5" width="600" alt="Now Playing on Spotify" />](https://open.spotify.com/user/x66jcxe031a67t6po1av5fi9x)
+<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi">
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Data Card for Spotify" width="600">
+</a>
 
-[![Abrir en Spotify](https://img.shields.io/badge/▶_Abrir_en_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=fff&labelColor=191414)](https://open.spotify.com/user/x66jcxe031a67t6po1av5fi9x)
+[![Abrir en Spotify](https://img.shields.io/badge/▶_Abrir_en_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=fff&labelColor=191414)](https://open.spotify.com/user/317zqnqhbclp6wzzokz6xp6igbdi)
 
 <br clear="left"/>
 
