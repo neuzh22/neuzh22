@@ -31,6 +31,8 @@ neuzh22@github
 
 **Total: 228 juegos** · **10 completados al 100%** · **21 seguidos**
 
+🔄 Actualizado: 10/08/2026 00:00
+
 [![Abrir Steam](https://img.shields.io/badge/Abrir_Perfil-171a21?style=for-the-badge&logo=steam&logoColor=fff&labelColor=1b2838)](https://steamcommunity.com/profiles/76561199132635436)
 
 <br clear="right"/>

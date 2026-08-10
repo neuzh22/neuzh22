@@ -1,0 +1,57 @@
+name: Update Steam Games
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Steam games
+        env:
+          STEAM_KEY: ${{ secrets.STEAM_API_KEY }}
+        run: |
+          STEAM_ID="76561199132635436"
+          DATA=$(curl -sf "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${STEAM_KEY}&steamid=${STEAM_ID}&include_appinfo=true&include_played_free_games=true&format=json")
+          
+          TOP5=$(echo "$DATA" | jq -r '.response.games | sort_by(-.playtime_forever) | .[0:5] | .[] | "| \(.name // "Unknown") | \((.playtime_forever // 0) / 60 | floor)h |"')
+          
+          TOTAL_GAMES=$(echo "$DATA" | jq '.response.game_count // 0')
+          TOTAL_HOURS=$(echo "$DATA" | jq '[.response.games[]?.playtime_forever // 0] | add // 0 | . / 60 | floor')
+          
+          COMPLETED=$(echo "$DATA" | jq '[.response.games[]? | select(.playtime_forever > 600)] | length')
+          
+          echo "$TOP5" > /tmp/top5.txt
+          echo "$TOTAL_GAMES" > /tmp/total_games.txt
+          echo "$TOTAL_HOURS" > /tmp/total_hours.txt
+          echo "$COMPLETED" > /tmp/completed.txt
+
+      - name: Update README
+        run: |
+          TOP5=$(cat /tmp/top5.txt)
+          TOTAL_GAMES=$(cat /tmp/total_games.txt)
+          TOTAL_HOURS=$(cat /tmp/total_hours.txt)
+          COMPLETED=$(cat /tmp/completed.txt)
+          
+          TABLE=$(echo "$TOP5" | sed 's/^/| /' | sed 's/$/ |/')
+          
+          sed -i "/| 🎯 Strinova/,/| 🎵 Hatsune Miku/c\\
+| 🎯 $(echo "$TOP5" | head -1 | cut -d'|' -f2) | $(echo "$TOP5" | head -1 | cut -d'|' -f3) |\\
+| 🔫 $(echo "$TOP5" | sed -n '2p' | cut -d'|' -f2) | $(echo "$TOP5" | sed -n '2p' | cut -d'|' -f3) |\\
+| 💥 $(echo "$TOP5" | sed -n '3p' | cut -d'|' -f2) | $(echo "$TOP5" | sed -n '3p' | cut -d'|' -f3) |\\
+| 🐴 $(echo "$TOP5" | sed -n '4p' | cut -d'|' -f2) | $(echo "$TOP5" | sed -n '4p' | cut -d'|' -f3) |\\
+| 🎵 $(echo "$TOP5" | sed -n '5p' | cut -d'|' -f2) | $(echo "$TOP5" | sed -n '5p' | cut -d'|' -f3) |" README.md || true
+          
+          sed -i "s/\*\*Total:.*juegos\*\*/\*\*Total: ${TOTAL_GAMES} juegos\*\*/" README.md || true
+          
+          TODAY=$(date +"%d/%m/%Y %H:%M")
+          sed -i "s/🔄 Actualizado:.*$/🔄 Actualizado: ${TODAY}/" README.md || true
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🎮 Update Steam games (auto)"
+          file_pattern: "README.md"
