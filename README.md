@@ -23,60 +23,31 @@ neuzh22@github
 |-----------|-------------|
 | 🐧 **Linux** | Administración de servidores, Sistemas Linux |
 | ☁️ **Cloud** | Microsoft Office 365, VMware vSphere |
-| 🗄️ **Bases de datos** | SQL, Gestión de correos electrónicos |
+| 🗄️ **Bases de datos** | SQL, SQLite, Gestión de correos electrónicos |
 | 🔧 **Soporte** | Help Desk, Atención al cliente, Telecomunicaciones |
 | 🛡️ **Seguridad** | Cybersecurity Essentials, Fundamentos de ciberseguridad |
 
 ---
 
-### 📜 Certificaciones
+### 💻 Lenguajes y tecnologías
 
-| Certificación | Institución | Fecha |
-|---------------|-------------|-------|
-| 🔐 Cybersecurity Essentials | Cisco Networking Academy | Ago 2022 |
-| 🐧 NDG Linux Unhatched | Cisco Networking Academy | Ago 2022 |
-| ☁️ Gestión de servicios en la nube | LinkedIn | Mar 2023 |
-| 🔧 Fundamentos del soporte técnico | LinkedIn | Mar 2023 |
-| 🐧 Administración de servidores Linux | LinkedIn | Abr 2023 |
-| 🛡️ Fundamentos de la ciberseguridad | LinkedIn | Abr 2023 |
-| 📋 Scrum Foundation Professional Certificate | CertiProf | Abr 2023 |
-
----
-
-### 💼 Proyectos destacados
-
-#### 🎫 SysTickets — Sistema de Mesa de Ayuda
-Sistema de tickets multiempresa para equipos de soporte e IT. Un solo contenedor Docker, base de datos SQLite, sin servicios externos.
-
-**Lo que construí:**
-- API REST completa con **Node.js** + **Express 5** (JWT, rate limiting, multi-tenancy)
-- Frontend SPA con **React** + **Vite** + **Tailwind CSS**
-- Base de datos **SQLite** en modo WAL con better-sqlite3
-- Contenedor **Docker** multi-stage (build + producción)
-- Sistema de backup automatizado con cron
-- Integración con **Claude AI** para sugerencias de prioridad
-- Branding dinámico (nombre + logo por organización)
-- Subida de imágenes con validación (jpeg/png/webp/gif, 5MB límite)
-
-**Lo que aprendí:**
-- Arquitectura multi-tenant por columna `org_id`
-- Seguridad: JWT, CORS, rate limiting por IP/email
-- DevOps: Docker Compose, volúmenes persistentes, healthchecks
-- SQLite en producción (WAL, concurrent reads, single writer)
-- Imágenes multi-stage para reducir tamaño de imagen
-
-**Stack:** `Node.js` `Express` `React` `Vite` `Tailwind` `SQLite` `Docker` `JWT`
+| Lenguaje / Framework | Nivel |
+|----------------------|-------|
+| 🟨 **JavaScript** | Node.js, Express, API REST |
+| ⚛️ **React** | SPA, Vite, Tailwind CSS |
+| 🐧 **Bash** | Scripts de automatización, Docker |
+| 🐳 **Docker** | Containers, Compose, multi-stage builds |
+| 🗄️ **SQLite** | WAL mode, better-sqlite3 |
+| 🌐 **HTML/CSS** | Frontend, responsive design |
+| 🐍 **Python** | Scripts, automatización |
+| 💻 **PowerShell** | Administración Windows |
+| 🗃️ **SQL** | Consultas, diseño de bases de datos |
 
 ---
-
-#### 🕐 Reloj Mundial
-Aplicación web de reloj mundial con **HTML** desplegada en **Vercel**. [Ver demo](https://reloj-mundial-three.vercel.app)
-
----
-
-<img align="right" src="assets/PerfilSteam.png" width="400" />
 
 ### 🎮 Steam — Juegos favoritos
+
+<img align="right" src="assets/PerfilSteam.png" width="400" />
 
 | Juego | ⏱️ Horas |
 |-------|---------|
@@ -104,6 +75,20 @@ Aplicación web de reloj mundial con **HTML** desplegada en **Vercel**. [Ver dem
 <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Spotify Data Card" width="550" />
 </a>
 </td></tr></table>
+
+---
+
+### 📜 Certificaciones
+
+| Certificación | Institución | Fecha |
+|---------------|-------------|-------|
+| 🔐 Cybersecurity Essentials | Cisco Networking Academy | Ago 2022 |
+| 🐧 NDG Linux Unhatched | Cisco Networking Academy | Ago 2022 |
+| ☁️ Gestión de servicios en la nube | LinkedIn | Mar 2023 |
+| 🔧 Fundamentos del soporte técnico | LinkedIn | Mar 2023 |
+| 🐧 Administración de servidores Linux | LinkedIn | Abr 2023 |
+| 🛡️ Fundamentos de la ciberseguridad | LinkedIn | Abr 2023 |
+| 📋 Scrum Foundation Professional Certificate | CertiProf | Abr 2023 |
 
 ---
 
