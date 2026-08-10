@@ -43,11 +43,34 @@ neuzh22@github
 
 ---
 
-### 💼 Proyectos
+### 💼 Proyectos destacados
 
-| Proyecto | Descripción | Link |
-|----------|-------------|------|
-| 🕐 **Reloj Mundial** | Aplicación web de reloj mundial con HTML | [Ver proyecto](https://reloj-mundial-three.vercel.app) |
+#### 🎫 SysTickets — Sistema de Mesa de Ayuda
+Sistema de tickets multiempresa para equipos de soporte e IT. Un solo contenedor Docker, base de datos SQLite, sin servicios externos.
+
+**Lo que construí:**
+- API REST completa con **Node.js** + **Express 5** (JWT, rate limiting, multi-tenancy)
+- Frontend SPA con **React** + **Vite** + **Tailwind CSS**
+- Base de datos **SQLite** en modo WAL con better-sqlite3
+- Contenedor **Docker** multi-stage (build + producción)
+- Sistema de backup automatizado con cron
+- Integración con **Claude AI** para sugerencias de prioridad
+- Branding dinámico (nombre + logo por organización)
+- Subida de imágenes con validación (jpeg/png/webp/gif, 5MB límite)
+
+**Lo que aprendí:**
+- Arquitectura multi-tenant por columna `org_id`
+- Seguridad: JWT, CORS, rate limiting por IP/email
+- DevOps: Docker Compose, volúmenes persistentes, healthchecks
+- SQLite en producción (WAL, concurrent reads, single writer)
+- Imágenes multi-stage para reducir tamaño de imagen
+
+**Stack:** `Node.js` `Express` `React` `Vite` `Tailwind` `SQLite` `Docker` `JWT`
+
+---
+
+#### 🕐 Reloj Mundial
+Aplicación web de reloj mundial con **HTML** desplegada en **Vercel**. [Ver demo](https://reloj-mundial-three.vercel.app)
 
 ---
 
