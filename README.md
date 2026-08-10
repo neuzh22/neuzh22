@@ -32,15 +32,11 @@ Haz clic en mi avatar para ver mi perfil de Steam
 
 <img align="left" src="assets/akane.gif" width="220" />
 
-### 🎧 Spotify
+### 🎧 Spotify — Música en tiempo real
 
-<a href="https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf">
-<img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84057526ee212b12a1d2529e1b" width="300" style="border-radius:12px; box-shadow: 0 4px 20px rgba(29,185,84,0.4);" />
-</a>
+[<img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=x66jcxe031a67t6po1av5fi9x&number_of_artists=5&number_of_tracks=5" width="600" alt="Now Playing on Spotify" />](https://open.spotify.com/user/x66jcxe031a67t6po1av5fi9x)
 
-<a href="https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf">
-<img src="https://img.shields.io/badge/▶_Abrir_en_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=fff&labelColor=191414" alt="Spotify"/>
-</a>
+[![Abrir en Spotify](https://img.shields.io/badge/▶_Abrir_en_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=fff&labelColor=191414)](https://open.spotify.com/user/x66jcxe031a67t6po1av5fi9x)
 
 <br clear="left"/>
 
