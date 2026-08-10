@@ -18,9 +18,10 @@ neuzh22@github
 
 ---
 
-<img align="right" src="assets/PerfilSteam.png" width="350" />
-
-### 🎮 Steam — Juegos favoritos
+<table><tr><td>
+<img src="assets/PerfilSteam.png" width="400" />
+</td><td>
+<h3>🎮 Steam — Juegos favoritos</h3>
 
 | Juego | ⏱️ Horas |
 |-------|---------|
@@ -33,14 +34,13 @@ neuzh22@github
 **Total: 228 juegos** · **10 completados al 100%** · **21 seguidos**
 
 [![Abrir Steam](https://img.shields.io/badge/Abrir_Perfil-171a21?style=for-the-badge&logo=steam&logoColor=fff&labelColor=1b2838)](https://steamcommunity.com/profiles/76561199132635436)
-
-<br clear="right"/>
+</td></tr></table>
 
 ---
 
 <table><tr><td>
 <img src="assets/akane.gif" width="250" />
-</td><td>
+</td><td style="padding-left: 30px;">
 <h3>🎧 音楽</h3>
 <a href="https://open.spotify.com/user/317zqnqhbclp6wzzokz6xp6igbdi">
 <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Spotify Data Card" width="550" />
