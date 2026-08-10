@@ -1,4 +1,4 @@
-<img align="left" src="assets/profile.jpg" width="200" />
+<img align="right" src="assets/profile.jpg" width="320" style="border-radius:16px; box-shadow: 0 4px 20px rgba(168,85,247,0.4);" />
 
 <br/>
 
@@ -14,17 +14,26 @@ neuzh22@github
 - 🎧 On repeat: **LiSA & Ado** ♫ the queens of anisong ✨
 ```
 
-<br clear="left"/>
+<br clear="right"/>
 
 ---
 
 <img align="left" src="assets/ranma.gif" width="200" />
 
-<br/>
+### 🎮 Steam Profile
 
-### 🎮 Steam
+```
+╔══════════════════════════════════╗
+║  🎮 neuzh22's Steam             ║
+╠══════════════════════════════════╣
+║  🏅 Nivel:   Cargando...        ║
+║  ⏱️ Horas:   Cargando...        ║
+║  🎲 Juegos:  Cargando...        ║
+║  🔗 Perfil:  steamcommunity.com ║
+╚══════════════════════════════════╝
+```
 
-[![Steam](https://img.shields.io/badge/STEAM-171a21?style=for-the-badge&logo=steam&logoColor=fff&labelColor=1b2838)](https://steamcommunity.com/profiles/76561199132635436)
+[![Abrir Steam](https://img.shields.io/badge/Abrir_Perfil-171a21?style=for-the-badge&logo=steam&logoColor=fff&labelColor=1b2838)](https://steamcommunity.com/profiles/76561199132635436)
 
 <br clear="left"/>
 
@@ -32,19 +41,17 @@ neuzh22@github
 
 <img align="left" src="assets/akane.gif" width="200" />
 
-<br/>
+### 🎧 Spotify — LiSA & Ado
 
-### 🎧 Spotify
+[![Spotify Playlist](https://img.shields.io/badge/Mi_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=fff&labelColor=191414)](https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf)
 
-<iframe style="border-radius:14px" src="https://open.spotify.com/embed/playlist/1igNed0LVe6aMcGKyNgVlf?utm_source=generator&theme=0" width="100%" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+Mi playlist de anisong favorita — LiSA, Ado, Sheena Ringo, Kenshi Yonezu y más ♫
 
 <br clear="left"/>
 
 ---
 
 <img align="left" src="assets/shampoo.gif" width="200" />
-
-<br/>
 
 ### 📈 GitHub Stats
 
