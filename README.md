@@ -37,7 +37,7 @@ neuzh22@github
 ### 🎧 Spotify
 
 <a href="https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf">
-<img src="https://open.spotify.com/oembed?url=https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf&format=json" width="300" />
+<img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84057526ee212b12a1d2529e1b" width="300" style="border-radius:12px; box-shadow: 0 4px 20px rgba(29,185,84,0.4);" />
 </a>
 
 <a href="https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf">
