@@ -1,16 +1,14 @@
-## Hi there 👋
+<img align="left" src="assets/profile.jpg.jpg" width="200" /> 
 
-<!--
-**neuzh22/neuzh22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+neuzh22@github
+-------------------------
+- 👩‍💻 **Software Development Technologist** at **Tecnológico Argos**
+- 🌱 Currently working on **Compiler optimization**
+- 🧰 Languages: **Python, JavaScript, C/C++, PowerShell, CSS, HTML, Dockerfile**
+- 📝 Keen on crafting neat, beautiful LaTeX HW
+- 🏃 Marathon / hiking / cycling
+- 🕹 Love video games & anime — favorites: **Black Clover** 🗡️ and **Ranma ½** ☯
+- 🎧 On repeat: **LiSA & Ado** ♫ the queens of anisong ✨
+```
+</p>
