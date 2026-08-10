@@ -19,9 +19,7 @@ neuzh22@github
 
 ### 🛠️ Habilidades
 
-<br/>
-
-<img align="left" src="assets/black-clover.gif" width="180" />
+<img align="right" src="assets/black-clover.gif" width="200" />
 
 | Categoría | Tecnologías |
 |-----------|-------------|
@@ -31,11 +29,13 @@ neuzh22@github
 | 🔧 **Soporte** | Help Desk, Atención al cliente, Telecomunicaciones |
 | 🛡️ **Seguridad** | Cybersecurity Essentials, Fundamentos de ciberseguridad |
 
-<br clear="left"/>
+<br clear="right"/>
 
 ---
 
 ### 💻 Lenguajes y tecnologías
+
+<img align="right" src="assets/shampoo.gif" width="200" />
 
 | Lenguaje / Framework | Nivel |
 |----------------------|-------|
@@ -48,6 +48,8 @@ neuzh22@github
 | 🐍 **Python** | Scripts, automatización |
 | 💻 **PowerShell** | Administración Windows |
 | 🗃️ **SQL** | Consultas, diseño de bases de datos |
+
+<br clear="right"/>
 
 ---
 
