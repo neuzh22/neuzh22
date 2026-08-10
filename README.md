@@ -1,4 +1,4 @@
-<img align="left" src="assets/profile.jpg" width="280" />
+<img align="left" src="assets/profile.jpg" width="200" />
 
 <br/>
 
