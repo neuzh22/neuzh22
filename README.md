@@ -19,7 +19,9 @@ neuzh22@github
 
 ### 🛠️ Habilidades
 
-<img align="right" src="assets/black-clover.gif" width="200" />
+<br/>
+
+<img align="left" src="assets/black-clover.gif" width="180" />
 
 | Categoría | Tecnologías |
 |-----------|-------------|
@@ -29,7 +31,7 @@ neuzh22@github
 | 🔧 **Soporte** | Help Desk, Atención al cliente, Telecomunicaciones |
 | 🛡️ **Seguridad** | Cybersecurity Essentials, Fundamentos de ciberseguridad |
 
-<br clear="right"/>
+<br clear="left"/>
 
 ---
 
