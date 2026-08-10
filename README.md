@@ -18,13 +18,21 @@ neuzh22@github
 
 ---
 
-<img align="right" src="assets/ranma.gif" width="220" />
+<img align="right" src="https://avatars.akamai.steamstatic.com/27fedab20302ddc386e87bf1a276d85ba2d6fd9a_full.jpg" width="350" />
 
-### 🎮 Steam
+### 🎮 Steam — Juegos favoritos
 
-[<img src="https://avatars.akamai.steamstatic.com/27fedab20302ddc386e87bf1a276d85ba2d6fd9a_full.jpg" width="120" style="border-radius:50%; border:3px solid #1b2838;" alt="Steam Profile" />](https://steamcommunity.com/profiles/76561199132635436)
+| Juego | ⏱️ Horas |
+|-------|---------|
+| 🎯 Strinova | 54.3h |
+| 🔫 Call of Duty® | 46.4h |
+| 💥 FragPunk | 32.7h |
+| 🐴 Umamusume: Pretty Derby | 30.7h |
+| 🎵 Hatsune Miku: Project DIVA Mega Mix+ | 28.9h |
 
-Haz clic en mi avatar para ver mi perfil de Steam
+**Total: 228 juegos** · **10 completados al 100%** · **21 seguidos**
+
+[![Abrir Steam](https://img.shields.io/badge/Abrir_Perfil-171a21?style=for-the-badge&logo=steam&logoColor=fff&labelColor=1b2838)](https://steamcommunity.com/profiles/76561199132635436)
 
 <br clear="right"/>
 
