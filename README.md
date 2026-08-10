@@ -19,6 +19,8 @@ neuzh22@github
 
 ### 🛠️ Habilidades
 
+<img align="right" src="assets/black-clover.gif" width="200" />
+
 | Categoría | Tecnologías |
 |-----------|-------------|
 | 🐧 **Linux** | Administración de servidores, Sistemas Linux |
@@ -26,6 +28,8 @@ neuzh22@github
 | 🗄️ **Bases de datos** | SQL, SQLite, Gestión de correos electrónicos |
 | 🔧 **Soporte** | Help Desk, Atención al cliente, Telecomunicaciones |
 | 🛡️ **Seguridad** | Cybersecurity Essentials, Fundamentos de ciberseguridad |
+
+<br clear="right"/>
 
 ---
 
@@ -80,6 +84,8 @@ neuzh22@github
 
 ### 📜 Certificaciones
 
+<img align="right" src="assets/black-clover-sketch.gif" width="200" />
+
 | Certificación | Institución | Fecha |
 |---------------|-------------|-------|
 | 🔐 Cybersecurity Essentials | Cisco Networking Academy | Ago 2022 |
@@ -89,6 +95,8 @@ neuzh22@github
 | 🐧 Administración de servidores Linux | LinkedIn | Abr 2023 |
 | 🛡️ Fundamentos de la ciberseguridad | LinkedIn | Abr 2023 |
 | 📋 Scrum Foundation Professional Certificate | CertiProf | Abr 2023 |
+
+<br clear="right"/>
 
 ---
 
