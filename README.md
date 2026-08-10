@@ -5,15 +5,49 @@
 ```
 neuzh22@github
 -------------------------
-👩‍💻 **Software Development Technologist** at **Tecnológico Argos**
-🌱 Currently working on **Compiler optimization**
-🧰 Languages: **Python, JavaScript, C/C++, PowerShell, CSS, HTML, Dockerfile**
-📝 Keen on crafting neat, beautiful LaTeX HW
-🕹 Love video games & anime — favorites: **Black Clover** 🗡️ and **Ranma ½** ☯
-🎧 On repeat: **LiSA & Ado** ♫ the queens of anisong ✨
+👩‍💻 IT Support Specialist | Linux & Cloud Enthusiast
+🌱 Currently studying at Tecnológico Argos
+🧰 Skills: Linux, VMware, SQL, Office 365, Exchange, Servers
+🔒 Certifications: Cybersecurity Essentials, Scrum Foundation
+🕹 Love video games & anime — favorites: Black Clover 🗡️ and Ranma ½ ☯
+🎧 On repeat: LiSA & Ado ♫ the queens of anisong ✨
 ```
 
 <br clear="left"/>
+
+---
+
+### 🛠️ Habilidades
+
+| Categoría | Tecnologías |
+|-----------|-------------|
+| 🐧 **Linux** | Administración de servidores, Sistemas Linux |
+| ☁️ **Cloud** | Microsoft Office 365, VMware vSphere |
+| 🗄️ **Bases de datos** | SQL, Gestión de correos electrónicos |
+| 🔧 **Soporte** | Help Desk, Atención al cliente, Telecomunicaciones |
+| 🛡️ **Seguridad** | Cybersecurity Essentials, Fundamentos de ciberseguridad |
+
+---
+
+### 📜 Certificaciones
+
+| Certificación | Institución | Fecha |
+|---------------|-------------|-------|
+| 🔐 Cybersecurity Essentials | Cisco Networking Academy | Ago 2022 |
+| 🐧 NDG Linux Unhatched | Cisco Networking Academy | Ago 2022 |
+| ☁️ Gestión de servicios en la nube | LinkedIn | Mar 2023 |
+| 🔧 Fundamentos del soporte técnico | LinkedIn | Mar 2023 |
+| 🐧 Administración de servidores Linux | LinkedIn | Abr 2023 |
+| 🛡️ Fundamentos de la ciberseguridad | LinkedIn | Abr 2023 |
+| 📋 Scrum Foundation Professional Certificate | CertiProf | Abr 2023 |
+
+---
+
+### 💼 Proyectos
+
+| Proyecto | Descripción | Link |
+|----------|-------------|------|
+| 🕐 **Reloj Mundial** | Aplicación web de reloj mundial con HTML | [Ver proyecto](https://reloj-mundial-three.vercel.app) |
 
 ---
 
