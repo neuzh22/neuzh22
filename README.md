@@ -18,7 +18,7 @@ neuzh22@github
 
 ---
 
-<img align="right" src="https://avatars.akamai.steamstatic.com/27fedab20302ddc386e87bf1a276d85ba2d6fd9a_full.jpg" width="350" />
+<img align="right" src="assets/PerfilSteam.png" width="350" />
 
 ### 🎮 Steam — Juegos favoritos
 
