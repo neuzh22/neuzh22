@@ -38,15 +38,17 @@ neuzh22@github
 
 ---
 
-<div align="center">
-<img src="assets/akane.gif" width="200" />
+<img align="left" src="assets/akane.gif" width="250" />
+
+<br/>
 
 ### 🎧 Mi música
 
 <a href="https://open.spotify.com/user/317zqnqhbclp6wzzokz6xp6igbdi">
 <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Spotify Data Card" width="550" />
 </a>
-</div>
+
+<br clear="left"/>
 
 ---
 
