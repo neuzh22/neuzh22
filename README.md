@@ -41,22 +41,12 @@ neuzh22@github
 <table><tr><td>
 <img src="assets/akane.gif" width="250" />
 </td><td>
-<h3>🎧 Mi música</h3>
+<h3>🎧 音楽</h3>
 <a href="https://open.spotify.com/user/317zqnqhbclp6wzzokz6xp6igbdi">
 <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Spotify Data Card" width="550" />
 </a>
 </td></tr></table>
 
 ---
-
-<div align="center">
-<img src="assets/shampoo.gif" width="200" />
-
-### 📈 GitHub Stats
-
-![Jonathan's GitHub stats](https://github-readme-stats.vercel.app/api?username=neuzh22&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=neuzh22&layout=compact&theme=radical)
-</div>
 
 <div align="center">✨ 魔法帝 ✨</div>
