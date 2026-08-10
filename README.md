@@ -38,36 +38,26 @@ neuzh22@github
 
 ---
 
-<img align="left" src="assets/akane.gif" width="220" />
+<div align="center">
+<img src="assets/akane.gif" width="200" />
 
-### 🎧 Spotify — Música en tiempo real
+### 🎧 Mi música
 
-<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi">
-  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Data Card for Spotify" width="600">
+<a href="https://open.spotify.com/user/317zqnqhbclp6wzzokz6xp6igbdi">
+<img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=317zqnqhbclp6wzzokz6xp6igbdi" alt="Spotify Data Card" width="550" />
 </a>
-
-[![Abrir en Spotify](https://img.shields.io/badge/▶_Abrir_en_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=fff&labelColor=191414)](https://open.spotify.com/user/317zqnqhbclp6wzzokz6xp6igbdi)
-
-<br clear="left"/>
+</div>
 
 ---
 
-<img align="right" src="assets/shampoo.gif" width="220" />
+<div align="center">
+<img src="assets/shampoo.gif" width="200" />
 
 ### 📈 GitHub Stats
 
 ![Jonathan's GitHub stats](https://github-readme-stats.vercel.app/api?username=neuzh22&show_icons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=neuzh22&layout=compact&theme=radical)
-
-<br clear="right"/>
-
----
-
-### 🔗 Contact
-
-[![Discord](https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=fff)](https://discord.com)
-[![Steam](https://img.shields.io/badge/STEAM-171a21?style=for-the-badge&logo=steam&logoColor=fff)](https://steamcommunity.com/profiles/76561199132635436)
-[![Spotify](https://img.shields.io/badge/SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=fff)](https://open.spotify.com/playlist/1igNed0LVe6aMcGKyNgVlf)
+</div>
 
 <div align="center">✨ 魔法帝 ✨</div>
